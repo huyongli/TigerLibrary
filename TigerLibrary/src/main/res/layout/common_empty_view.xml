@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/loading_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <cn.ittiger.library.ui.LoadingView
+            android:id="@+id/loadingView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/loading_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/empty_view_failed_text_margin"
+            android:textColor="@color/empty_view_loading_text_color"
+            android:textSize="@dimen/empty_view_loading_text_size"
+            android:text="@string/empty_view_loading_text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loading_failed_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+        
+        <ImageView
+            android:id="@+id/load_failed_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/empty_view_failed_icon_margin_bottom"
+            android:scaleType="centerCrop"/>
+        
+        <TextView
+            android:id="@+id/load_failed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/empty_view_failed_message_color"
+            android:textSize="@dimen/empty_view_failed_message_textSize"/>
+
+        <TextView
+            android:id="@+id/loading_failed_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/empty_view_failed_text_margin"
+            android:textColor="@color/empty_view_failed_describe_color"
+            android:textSize="@dimen/empty_view_failed_describe_textSize"/>
+    </LinearLayout>
+</merge>

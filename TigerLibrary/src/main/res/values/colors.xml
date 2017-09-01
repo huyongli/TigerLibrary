@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="empty_view_icon_color">#cdcdcd</color>
+    <color name="empty_view_loading_text_color">@color/primary_color</color>
+    <color name="empty_view_failed_message_color">@color/primary_color</color>
+    <color name="empty_view_failed_describe_color">@color/third_color</color>
+
+    <color name="primary_color">#333333</color>
+    <color name="second_color">#666666</color>
+    <color name="third_color">#999999</color>
+    <color name="common_black_alpha_80">#CC000000</color>
+
+    <color name="divider_color">#E0E0E0</color>
+
+    <!--base dialog-->
+    <color name="base_dialog_title_color">@color/primary_color</color>
+    <color name="base_bottom_text_color">@color/second_color</color>
+    <color name="base_dialog_button_color">@android:color/white</color>
+    <color name="base_dialog_button_press_color">#dcdcdc</color>
+
+    <!-- process button -->
+    <color name="process_button_blue_pressed">#ff0099cc</color>
+    <color name="process_button_blue_normal">#0084ff</color>
+    <color name="process_button_green_complete">#ff99cc00</color>
+    <color name="process_button_purple_progress">#ffaa66cc</color>
+    <color name="process_button_red_error">#ffff4444</color>
+    <color name="process_button_holo_blue_bright">#ff00ddff</color>
+    <color name="process_button_holo_green_light">#ff99cc00</color>
+    <color name="process_button_holo_orange_light">#ffffbb33</color>
+    <color name="process_button_holo_red_light">#ffff4444</color>
+</resources>

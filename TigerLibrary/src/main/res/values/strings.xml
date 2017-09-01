@@ -1,0 +1,10 @@
+<resources>
+    <string name="load_failed">加载失败，点击重试</string>
+    <string name="exit_app">再按一次退出程序</string>
+    <string name="empty_view_loading_text">正在加载...</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="delete">删除</string>
+    <string name="empty_common_title">网络出小差啦～</string>
+    <string name="empty_common_description">重新加载</string>
+</resources>

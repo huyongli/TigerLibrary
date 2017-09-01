@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="empty_view_failed_icon_margin_bottom">15dp</dimen>
+    <dimen name="empty_view_failed_text_margin">8dp</dimen>
+    <dimen name="empty_view_failed_message_textSize">15sp</dimen>
+    <dimen name="empty_view_failed_describe_textSize">11sp</dimen>
+    <dimen name="empty_view_loading_text_size">16sp</dimen>
+
+    <!-- base dialog width -->
+    <dimen name="base_dialog_width">270dp</dimen>
+    <dimen name="base_dialog_corner_radius">4dp</dimen>
+    <dimen name="base_dialog_horizontal_padding">20dp</dimen>
+    <dimen name="base_dialog_horizontal_padding_top">20dp</dimen>
+    <dimen name="base_dialog_horizontal_padding_bottom">16dp</dimen>
+    <dimen name="base_dialog_content_margin">12dp</dimen>
+    <dimen name="base_dialog_title_text_size">18sp</dimen>
+    <dimen name="base_dialog_bottom_item_height">25dp</dimen>
+    <dimen name="base_dialog_bottom_text_size">15sp</dimen>
+    <dimen name="base_dialog_bottom_padding_end">10dp</dimen>
+    <dimen name="base_dialog_bottom_btn_padding">5dp</dimen>
+    <dimen name="base_dialog_bottom_action_padding">15dp</dimen>
+    <dimen name="simple_dialog_message_text_size">16sp</dimen>
+    <dimen name="loading_dialog_radius">12dp</dimen>
+
+    <dimen name="divider_size">1px</dimen>
+
+    <!-- process button -->
+    <dimen name="process_button_corner_radius">4dp</dimen>
+    <dimen name="process_button_layer_padding">3dp</dimen>
+</resources>
